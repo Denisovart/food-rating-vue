@@ -3,7 +3,7 @@
     path: string,
     label: string
   }
-  const { path, label } = defineProps<ILinkButtonProps>()
+  defineProps<ILinkButtonProps>()
 </script>
 
 <template>
