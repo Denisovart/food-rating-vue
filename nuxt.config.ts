@@ -8,4 +8,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  typescript: {
+    typeCheck: true
+  },
+  devServer: {
+    port: 7777
+  }
 })
